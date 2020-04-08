@@ -92,14 +92,11 @@ public class WarmUp {
             return str;
         } else if (str.length() == 1) {
             return str;
-
         } else if (str.length() == 2) {
             thirst = str.substring(0, 1);
             second = str.substring(1);
-
             return second + thirst;
         }
-
         thirst = str.substring(0, 1);
         middle = str.substring(1, str.length() - 1);
         second = str.substring(str.length() - 1);
