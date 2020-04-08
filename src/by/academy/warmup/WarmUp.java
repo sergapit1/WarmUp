@@ -67,8 +67,9 @@ public class WarmUp {
             return true;
         }
         return false;
-
     }
+
+
 
 
     public String notString(String str) {
@@ -79,9 +80,12 @@ public class WarmUp {
     }
 
 
+
+
     public String missingChar(String str, int n) {
         return str.substring(0, n) + str.substring(n + 1);
     }
+
 
 
     public String frontBack(String str) {
@@ -113,15 +117,12 @@ public class WarmUp {
             bin = str.substring(0, 3);
         }
         return bin + bin + bin;
-
     }
 
 
     public String backAround(String str) {
-
         char words = str.charAt(str.length() - 1);
         return words + str + words;
-
     }
 
 
@@ -174,7 +175,6 @@ public class WarmUp {
             return true;
         }
         return false;
-
     }
 
 
@@ -287,9 +287,7 @@ public class WarmUp {
         int length = str.length();
         if (length < 3)
             return str.toUpperCase();
-
         String result = str.substring(first, length).toUpperCase();
-
         return str.substring(0, first) + result;
 
     }
